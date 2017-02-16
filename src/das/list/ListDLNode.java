@@ -15,6 +15,7 @@ public class ListDLNode implements List {
 		header = new DLNode();
 		trailer = new DLNode();
 		header.setNext(trailer);
+		trailer.setPrev(header);
 	}
 
 	// 检查给定位置在列表中是否合法，若是，则将其转换为*DLNode

@@ -41,8 +41,8 @@ public class QueueLinkedList implements Queue {
 			head = node;
 		} else {
 			tail.setNext(node);
-			tail = node;
 		}
+		tail = node;
 		size++;
 	}
 
