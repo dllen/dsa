@@ -54,4 +54,9 @@ public class BinTreeLinkedList implements BinTree {
 		return root.elementsLevelorder();
 	}
 
+	@Override
+	public int getDepth() {
+		return root.getDepth();
+	}
+
 }

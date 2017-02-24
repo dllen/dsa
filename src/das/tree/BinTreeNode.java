@@ -22,6 +22,10 @@ public class BinTreeNode implements BinTreePosition {
 	public BinTreeNode() {
 		this(null, null, true, null, null);
 	}
+	
+	public BinTreeNode(Object e){
+		this(e, null, true, null, null);
+	}
 
 	public BinTreeNode(Object e, // 节点内容
 			BinTreePosition p, // 父节点

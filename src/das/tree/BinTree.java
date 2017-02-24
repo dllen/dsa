@@ -19,6 +19,8 @@ public interface BinTree {
 
 	public int getSize();
 
+	public int getDepth();
+	
 	public int getHeight();
 
 	public Iterator elementsPreorder();
